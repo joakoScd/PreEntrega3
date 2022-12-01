@@ -1,0 +1,58 @@
+main{
+ 
+    margin-top: 80px;
+
+    .titulomain{
+       padding-left: 40%;
+    }
+  
+    #containercardpadre{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-template-rows: 1fr 1fr ;   
+        justify-items: center; 
+        align-items: center;      
+        padding: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
+        border: 4px;
+
+        .img-product{
+         width: 200px;
+         height: 200px;
+          
+        }
+
+        .cardhijo{
+            background-color: white;
+            border-radius:  20px ; 
+            width: auto;
+        
+        }
+        
+        .cardhijo:hover{ 
+            transform: scale(0.9 , 1);
+            transition: all 1s ease;
+        }
+    
+        @media (max-width:640px){
+            .cardhijo{                   
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                p,span{
+                    font-size: 10px;
+                }
+            }
+            #containercardpadre{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    
+
+}
+ 

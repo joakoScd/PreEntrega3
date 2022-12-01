@@ -1,0 +1,67 @@
+#body{
+   background-color: rgb(233, 187, 101);
+
+   main{ 
+      display: flex;
+      justify-content: center;
+
+      .divredes{
+         display: flex;
+         flex-direction: column;
+         margin-top: 200px;
+
+         .imgredes{       
+            padding: 30px;     
+            height: 150px;
+            width: 150px;    
+            transition: all 3s;        
+         }
+
+         .imgredes:hover{
+            transform: rotatex(360deg);     
+         }
+
+      }
+
+      .divcontacto{
+         padding-top: 100px;
+         justify-content: center;   
+         padding-left: 20px;
+         padding-right: 20px;
+         width: 700px;         
+         font-family: monospace;
+
+         h2{
+            text-align: center;
+            margin: 0;
+            font-size: 50px;
+            margin-bottom: 20px;  
+         } 
+         #boton{
+            padding: 20px;
+            background:white;
+            transition: all 3s ease;
+            }
+         
+            #boton:hover{
+               background:linear-gradient(#000a, transparent), rgb(255, 123, 0);
+               transition: all 0.5s ;
+            }
+         input, textarea{
+            width: 100%;
+            margin-bottom: 40px;
+            padding: 10px;
+            font-size: 30px;
+         }
+         
+         textarea{
+            max-width: 100%;
+            min-width: 100%;
+         }
+
+      }
+
+
+   }
+   
+}

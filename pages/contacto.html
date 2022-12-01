@@ -3,46 +3,59 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
         <title>Document</title>
     </head>
-    <body>
-
-        <nav class="navpadre">
-
-            <a href="../index.html">
-            <img class="logo" src="../imagen/activa.png" alt="No Anda">
-            </a>
-
-            <ul class="navhijo">
-                <li class="hijo">
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li class="hijo">
-                    <a href="../pages/tuauto.html">Tu Auto</a>
-                </li>
-                <li class="hijo">
-                    <a href="../pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+    <body id="body">
+        <header>
+            <nav class="navpadre">
+    
+                <a href="../index.html">
+                <img class="logo" src="../imagen/activa.png" alt="No Anda">    
+                </a>
+    
+                <ul class="navhijo">
+                    <li class="hijo">
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li class="hijo">
+                        <a href="./pages/tuauto.html">Tu Auto</a>                
+    
+                    </li>
+                    <li class="hijo">
+                        <a href="./pages/contacto.html">Contacto</a>
+    
+                    </li>
+                    <li class="hijo">
+                        <img class="carrito" src="../imagen/IMG_20221128_212951.png" alt="">
+                        <a href="./pages/carrito.html">Carrito</a>
+    
+                    </li>
+                </ul>
+            </nav>
+        </header>
         
-        <main class="maincontacto">
-            
-            <h2>Contacto</h2>
-            <form action="" method="" enctype="">
+        <main class="">
 
-                <input type="text" name="nombreyapellido" placeholder="Nombre y apellido">
-                <input type="text" name="correo" placeholder="E-mail">
-                <input type="password" name="contraseña" placeholder="Contraseña">
-                <input type="text" name="telefono" placeholder="Telefono">
-                <textarea name="Textear" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
-                <input type="submit" id="boton" name="Botonenviar" value="ENVIAR" >
+            <div class="divredes">  
+                <a href=""><img src="../imagen/whattsapp.png" class="imgredes" alt=""></a>
+                <a href=""><img src="../imagen/facebook.png" class="imgredes" alt=""></a>
+                <a href=""><img src="../imagen/instagram.png" class="imgredes" alt=""></a>
+            </div>
 
+            <div class="divcontacto">
+                <h2>Contacto</h2>
+                <form action="" method="" enctype="">
 
-            </form>  
-
-
+                    <input type="text" name="nombreyapellido" placeholder="Nombre y apellido">
+                    <input type="text" name="correo" placeholder="E-mail">
+                    <input type="password" name="contraseña" placeholder="Contraseña">
+                    <input type="text" name="telefono" placeholder="Telefono">
+                    <textarea name="Textear" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
+                    <input type="submit" id="boton" name="Botonenviar" value="ENVIAR" >
+                </form> 
+                    
+            </div>   
 
         </main>
        
@@ -50,30 +63,33 @@
 
 
     
-
         <footer class="footerpadre">
-
-            <div class="divfooter">                
-                <h4>BUSCANOS EN</h4>
-            <div>
-
-
-            <div class="divfooter2">
-
-                <a class="" href="www.facebook.com"><img src="../imagen/facebook.png" class="imgfacebook" alt=""></a>
-
-                <a href="www.instagram.com"><img src="../imagen/instagram.png" class="imgfacebook" alt=""></a>
-
-            </div>
-
-            <ul class="ulul">
-                <li>Calle Falsa 123</li>
-                <li>Merlo Buenos Aires</li>
-                <li>Tel.:01111254452</li>
-            </ul>
-
-            
-
+        
+            <div class="datospadre">
+    
+                <div>
+                    <h4 class="titulocontacto">CONTACTANOS</h4>
+                </div>
+    
+                <div>
+                    <ul class="datos">
+                        <li>Calle Falsa 123</li>
+                        <li>Merlo Buenos Aires</li>
+                        <li>Tel.:01111254452</li>
+                    </ul>
+                </div>  
+            </div>      
+    
+            <div class="redespadre">
+                <div class="redes">                
+                    <h4 class="tituloredes">REDES SOCIALES</h4>
+                <div>
+                <div class="divfooter2">
+                    <a class="" href="www.facebook.com"><img src="../imagen/facebook.png" class="imgfooter" alt=""></a>
+                    <a href="www.instagram.com"><img src="../imagen/instagram.png" class="imgfooter" alt=""></a>
+                </div>
+            </div>        
+    
         </footer>
 
     </body>

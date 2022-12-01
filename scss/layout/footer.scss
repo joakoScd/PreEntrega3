@@ -1,0 +1,55 @@
+footer {
+    background-color: orange;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    
+ 
+    .datospadre{
+        padding: 20px;
+        margin-right: 5%;
+
+        .datos{
+            justify-content: center;
+            li{
+                list-style: none;
+                font-size: 30px;               
+            }
+        }
+    }
+
+
+    .redespadre{
+        margin-left: 5%;        
+        justify-content: center;
+
+        .redes{
+            padding: 20px;
+        }  
+        .divfooter2{
+          margin-left: 30px;
+
+            .imgfooter{
+                margin: 20px;
+                height: 50px;
+                width: 50px;
+                transition: all 1s;
+    
+            }
+            .imgfooter:hover{                
+                transform: rotatez(360deg);              
+            }
+
+        }
+    }
+   
+
+    div h4{
+        padding: 0px;
+        font-size: 40px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+}
+  

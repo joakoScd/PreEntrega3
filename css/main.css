@@ -1,0 +1,155 @@
+header {
+  background-color: orange;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9998;
+  justify-content: center; }
+  header .navpadre {
+    display: flex; }
+    header .navpadre .logo {
+      margin: auto;
+      width: 150px;
+      padding: 20px; }
+    header .navpadre .navhijo {
+      display: flex;
+      align-items: center;
+      margin-top: 20px; }
+      header .navpadre .navhijo a {
+        text-decoration: none;
+        color: black; }
+      header .navpadre .navhijo .carrito {
+        width: 30%; }
+      header .navpadre .navhijo .hijo {
+        background-color: #eec579;
+        height: 40px;
+        width: 160px;
+        font-size: 20px;
+        font-family: sans-serif;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0px 20px; }
+      header .navpadre .navhijo .hijo:hover {
+        transform: scale(0.8);
+        transition: all 2s ease; }
+      @media (max-width: 640px) {
+        header .navpadre .navhijo .hijo {
+          height: 30px;
+          width: 100px;
+          font-size: 15px;
+          margin: 0px 3px; } }
+
+main {
+  margin-top: 80px; }
+  main .titulomain {
+    padding-left: 40%; }
+  main #containercardpadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 4px; }
+    main #containercardpadre .img-product {
+      width: 200px;
+      height: 200px; }
+    main #containercardpadre .cardhijo {
+      background-color: white;
+      border-radius: 20px;
+      width: auto; }
+    main #containercardpadre .cardhijo:hover {
+      transform: scale(0.9, 1);
+      transition: all 1s ease; }
+    @media (max-width: 640px) {
+      main #containercardpadre .cardhijo img {
+        width: 100px;
+        height: 100px; }
+      main #containercardpadre .cardhijo p, main #containercardpadre .cardhijo span {
+        font-size: 10px; }
+      main #containercardpadre #containercardpadre {
+        display: flex;
+        flex-direction: column; } }
+
+footer {
+  background-color: orange;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  width: 100%; }
+  footer .datospadre {
+    padding: 20px;
+    margin-right: 5%; }
+    footer .datospadre .datos {
+      justify-content: center; }
+      footer .datospadre .datos li {
+        list-style: none;
+        font-size: 30px; }
+  footer .redespadre {
+    margin-left: 5%;
+    justify-content: center; }
+    footer .redespadre .redes {
+      padding: 20px; }
+    footer .redespadre .divfooter2 {
+      margin-left: 30px; }
+      footer .redespadre .divfooter2 .imgfooter {
+        margin: 20px;
+        height: 50px;
+        width: 50px;
+        transition: all 1s; }
+      footer .redespadre .divfooter2 .imgfooter:hover {
+        transform: rotatez(360deg); }
+  footer div h4 {
+    padding: 0px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+#body {
+  background-color: #e9bb65; }
+  #body main {
+    display: flex;
+    justify-content: center; }
+    #body main .divredes {
+      display: flex;
+      flex-direction: column;
+      margin-top: 200px; }
+      #body main .divredes .imgredes {
+        padding: 30px;
+        height: 150px;
+        width: 150px;
+        transition: all 3s; }
+      #body main .divredes .imgredes:hover {
+        transform: rotatex(360deg); }
+    #body main .divcontacto {
+      padding-top: 100px;
+      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 700px;
+      font-family: monospace; }
+      #body main .divcontacto h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 50px;
+        margin-bottom: 20px; }
+      #body main .divcontacto #boton {
+        padding: 20px;
+        background: white;
+        transition: all 3s ease; }
+      #body main .divcontacto #boton:hover {
+        background: linear-gradient(#000a, transparent), #ff7b00;
+        transition: all 0.5s; }
+      #body main .divcontacto input, #body main .divcontacto textarea {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 10px;
+        font-size: 30px; }
+      #body main .divcontacto textarea {
+        max-width: 100%;
+        min-width: 100%; }
